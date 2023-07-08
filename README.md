@@ -1,7 +1,7 @@
 # WBScore
 
 This project concerns data files used in the experiment described in the article "WB Score: A Novel Methodology for Visual Classifier Selection in Increasingly Noisy Datasets."
-Below has described the folders content:
+Below is described the folders content:
 
 JAVA: Contains the class "Tampering.java," which inputs the data part of a dataset file (the lines below the mark @data in an arff file) and spawns it to 20 tampered datasets with increasing noise levels ranging from 1% to 20%, using a step of 1%. There are three types of generated noise: multiplicative, additive, and a mix of both.
 
